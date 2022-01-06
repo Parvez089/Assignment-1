@@ -6,14 +6,19 @@ body {
   border-bottom: 50px red;
 }
 
-section {
+.fc {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 200%;
   padding-left: 10%;
   padding-bottom: 20%;
   padding-top: 10%;
+}
+.half-width img {
+  padding-bottom: 150px;
+  width: 50%;
 }
 .add-border {
   border-left: 5px solid orangered;
@@ -24,8 +29,8 @@ section {
   width: 50%;
   padding-bottom: 150px;
 }
-.h1 {
-  font-size: 90px;
+h1 {
+  font-size: 60px;
 }
 .link-button {
   text-decoration: none;
@@ -34,12 +39,4 @@ section {
   border-radius: 8px;
   color: white;
   font-weight: 700;
-}
-
-.img-added {
-  width: 200%;
-  padding-left: 10%;
-  padding-bottom: 50%;
-  padding-top: 10%;
-  size: 5px;
 }
